@@ -7,5 +7,11 @@
 }
 
 .hwTitle {
-
+    border-bottom: 1px solid #D9D9D9;
+    padding: 107px 0 10px 70px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }

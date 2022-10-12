@@ -1,17 +1,31 @@
 .message {
+    color: #FFFFFF;
 
 }
 
 .imageAndText {
-
+    display: grid;
+    grid-template-areas:
+    "text image"
+    "no time";
+    height: 60px;
+    padding-top: 24px;
+    padding-left: 635px;
 }
 
 .imageAndText img {
-
+    grid-area: image;
+    height: 48px;
+    width: 48px;
+    align-self: end;
 }
 
 .text {
-
+    grid-area: text;
+    height: 60px;
+    background-color: #0066CC;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 10px;
 }
 
 .text:after {
@@ -27,5 +41,11 @@
 }
 
 .time {
-
+    padding-top: 5px;
+    padding-left: 1173px;
+    grid-area: time;
+    justify-self: end;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
 }
